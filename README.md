@@ -1,5 +1,7 @@
 # Macros_VBA
+## Copiando apenas último e-mail de um loop, tanto em En-US quanto em Pt-BR
 
+## Lógica
 String string1, string2, string3
 Boolean TemDe = false
 
@@ -15,3 +17,15 @@ SE não encontrar "De:" (else)
 	TemDe continua false
 	passar string2 para a área de transferência
 	
+
+## Como aplicar: 
+1.	Enable Macros.
+Open Outlook.
+From the File menu, click Options --> Trust Center --> Trust Center Settings --> Macro Settings.
+Click Ok twice.
+ 
+2.	Adding the Macro to Visual Basic (VB).
+Press Alt-F11 to open the VB window.
+Right-Click the blank area and choose Insert --> Module, then paste the code in the module Window.
+
+
